@@ -101,10 +101,10 @@ Pillar tile, <character> as above.
 
 Track tiles.  I at the end inverts the material colors.
 
-[TRACK_N:208I]
-[TRACK_S:210I]
-[TRACK_E:198I]
-[TRACK_W:181I]
+[TRACK_N:220I]
+[TRACK_S:223I]
+[TRACK_E:221I]
+[TRACK_W:222I]
 [TRACK_NS:179I]
 [TRACK_NE:192I]
 [TRACK_NW:217I]
@@ -134,20 +134,20 @@ Track tiles.  I at the end inverts the material colors.
 
 Tiles for the parts of trees.
 
-[TREE_ROOT_SLOPING:172I]
+[TREE_ROOT_SLOPING:172]
 [TREE_TRUNK_SLOPING:30]
-[TREE_ROOT_SLOPING_DEAD:172I]
-[TREE_TRUNK_SLOPING_DEAD:127]
-[TREE_ROOTS:172I]
-[TREE_ROOTS_DEAD:172I]
+[TREE_ROOT_SLOPING_DEAD:172]
+[TREE_TRUNK_SLOPING_DEAD:30]
+[TREE_ROOTS:172]
+[TREE_ROOTS_DEAD:172]
 [TREE_BRANCHES:172]
 [TREE_BRANCHES_DEAD:170]
-[TREE_SMOOTH_BRANCHES:'#']
-[TREE_SMOOTH_BRANCHES_DEAD:'#']
-[TREE_TRUNK_PILLAR:245]
-[TREE_TRUNK_PILLAR_DEAD:245]
-[TREE_CAP_PILLAR:245]
-[TREE_CAP_PILLAR_DEAD:245]
+[TREE_SMOOTH_BRANCHES:170]
+[TREE_SMOOTH_BRANCHES_DEAD:170]
+[TREE_TRUNK_PILLAR:10]
+[TREE_TRUNK_PILLAR_DEAD:10]
+[TREE_CAP_PILLAR:30]
+[TREE_CAP_PILLAR_DEAD:30]
 [TREE_TRUNK_N:29]
 [TREE_TRUNK_S:29]
 [TREE_TRUNK_N_DEAD:29]
@@ -226,8 +226,8 @@ Tiles for the parts of trees.
 [TREE_BRANCH_NSEW_DEAD:170]
 [TREE_TWIGS:171]
 [TREE_TWIGS_DEAD:172]
-[TREE_CAP_RAMP:30]
-[TREE_CAP_RAMP_DEAD:127]
+[TREE_CAP_RAMP:8]
+[TREE_CAP_RAMP_DEAD:8]
 [TREE_CAP_FLOOR1:249]
 [TREE_CAP_FLOOR2:249]
 [TREE_CAP_FLOOR1_DEAD:249]
@@ -247,7 +247,7 @@ You can have your dwarves start/arrive without any labor types enabled here by s
 
 [SET_LABOR_LISTS:SKILLS]
 
-You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.
+You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.  The strict cap also stops fort births.  Both caps can be violated by a few special cases, like the arrival of the monarch if you qualify.
 
 [POPULATION_CAP:120]
 [STRICT_POPULATION_CAP:220]
