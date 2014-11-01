@@ -89,11 +89,11 @@ Use these to set the color of wounded body parts.  The format is <foreground col
 
 This controls the display of areas that are far below outside.  The format is SKY:<character>:<foreground color>:<background color>:<brightness>.  The <character> can be either an ASCII tile number or a character in quotes, like '#'.
 
-[SKY:250:0:0:0]
+[SKY:0:0:0:0]
 
 As above, for inside/subterranean areas.
 
-[CHASM:250:0:0:0]
+[CHASM:0:0:0:0]
 
 Pillar tile, <character> as above.
 
