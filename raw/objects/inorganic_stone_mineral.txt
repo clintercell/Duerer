@@ -349,7 +349,7 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:PUDDINGSTONE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:puddingstone][DISPLAY_COLOR:6:7:0][TILE:232]
+[STATE_NAME_ADJ:ALL_SOLID:puddingstone][DISPLAY_COLOR:6:7:0][TILE:224]
 [ENVIRONMENT_SPEC:CONGLOMERATE:CLUSTER:100][AQUIFER]
 [IS_STONE]
 [SOLID_DENSITY:2000] Based on congolomorate
@@ -554,7 +554,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 [STATE_NAME_ADJ:LIQUID:molten native aluminum]
 [STATE_NAME_ADJ:GAS:boiling native aluminum]
 [DISPLAY_COLOR:7:7:1]
-[TILE:'^']
+[TILE:131]
 [MATERIAL_VALUE:40]
 [SPEC_HEAT:900]
 [MELTING_POINT:11188]
@@ -680,7 +680,7 @@ potassium nitrate, good for fertilizer and blowing things up with carbon and sul
 
 [INORGANIC:ALABASTER]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:alabaster][DISPLAY_COLOR:7:7:1][TILE:'^']
+[STATE_NAME_ADJ:ALL_SOLID:alabaster][DISPLAY_COLOR:7:7:1][TILE:131]
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2300]
 [IS_STONE]
